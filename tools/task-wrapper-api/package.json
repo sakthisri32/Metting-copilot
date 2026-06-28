@@ -1,0 +1,13 @@
+{
+  "name": "copilot-task-wrapper-api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "@ibm-cloud/cloudant": "^0.9.1",
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "uuid": "^9.0.1"
+  }
+}
